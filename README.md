@@ -4,7 +4,7 @@ This project takes inspiration from the paper "Profiling the End Host: Thomas Ka
 Nina Taft, and Michalis Faloutsos" to implement an anomaly detection tool based on SVMs and Graph kernels.
 
 🎯
-The final goal is to create a classification with two labels: "NORMAL" and "ANOMALOUS" given the single transactions found in the /Dataset folder.
+The final goal is to create a classification with two labels: "NORMAL" and "ANOMALOUS" given the single network transactions (packets sent for the host to a target) found in the /Dataset folder.
 
 ➡️
 The approach presented here uses the following steps:
